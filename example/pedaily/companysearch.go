@@ -149,7 +149,15 @@ func detail(url string) map[string]string {
 	returnmap["contact"] = strings.Replace(trip(doc.Find("#contact").Text()), "\n", "<br/>", -1)
 	returnmap["desc"] = strings.Replace(trip(doc.Find("#desc").Text()), "\n", "<br/>", -1)
 	returnmap["website"] = trip(doc.Find("li.link a").Text())
-	info := trip(doc.Find(".info ul").Text())
+	info := ""
+	doc.Find(".info ul li").Each(func(i int, node *goquery.Selection) {
+	temp:=node.Text()
+		temp=trip(strings.Replace(temp,"\n","",-1))
+		temp=strings.Replace(temp,"&nbsp;","",-1)
+		temp=strings.Replace(temp,"　","",-1)
+		info=info+"\n"+temp
+	})
+
 	dudu := tripemptyl(strings.Split(info, "\n"))
 	for _, r := range dudu {
 		rr := strings.Split(r, "：")
