@@ -17,7 +17,8 @@ go get -u -v github.com/hunterhug/spiderexample
 
 投资界爬虫
 
-<img src='https://raw.githubusercontent.com/hunterhug/spiderexample/master/pedaily1.png' />
-<img src='https://raw.githubusercontent.com/hunterhug/spiderexample/master/pedaily2.png' />
-<img src='https://raw.githubusercontent.com/hunterhug/spiderexample/master/pedaily3.png' />
+关键字查找公司信息
+<img src='https://raw.githubusercontent.com/hunterhug/spiderexample/master/img/pedaily1.png' />
+<img src='https://raw.githubusercontent.com/hunterhug/spiderexample/master/img/pedaily2.png' />
+<img src='https://raw.githubusercontent.com/hunterhug/spiderexample/master/img/pedaily3.png' />
 
