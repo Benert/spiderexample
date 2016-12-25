@@ -13,9 +13,7 @@ example 爬虫例子
 go get -u -v github.com/hunterhug/spiderexample
 ```
 
-1. pedaily
-
-投资界爬虫
+## 投资界爬虫pedaily
 
 关键字查找公司信息
 <img src='https://raw.githubusercontent.com/hunterhug/spiderexample/master/img/pedaily1.png' />
